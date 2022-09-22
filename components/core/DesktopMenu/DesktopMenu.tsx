@@ -59,9 +59,9 @@ const DesktopMenu = () => {
   return (
     <>
       <div className={`${styles.desktopMenu} ${styles.headerItem}`}>
-        <div className={styles.searchContainer}>
+        {/* <div className={styles.searchContainer}>
           <SearchBar onSubmit={handleSearchSubmit} />
-        </div>
+        </div> */}
         {/* <li>
           <Link href="/cart">
             <a>

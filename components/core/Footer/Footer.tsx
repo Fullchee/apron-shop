@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaFacebook, FaInstagram } from 'react-icons/fa';
+import { FaGithub, FaFacebook, FaInstagram, FaEnvelope } from 'react-icons/fa';
 
 import styles from './Footer.module.css';
 
@@ -7,16 +7,11 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.content}>
-        <p>© 2020 Dress Shop. All rights reserved.</p>
+        <p>© 2022 Leslievlle Aprons. All rights reserved.</p>
         <ul className={styles.links}>
           <li>
             <a href="#">
-              <FaFacebook size={22} />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <FaInstagram size={22} />
+              <FaEnvelope size={22} />
             </a>
           </li>
           <li>
