@@ -62,7 +62,7 @@ const DesktopMenu = () => {
         <div className={styles.searchContainer}>
           <SearchBar onSubmit={handleSearchSubmit} />
         </div>
-        <li>
+        {/* <li>
           <Link href="/cart">
             <a>
               <IoMdCart size={30} />
@@ -72,8 +72,8 @@ const DesktopMenu = () => {
               )}
             </a>
           </Link>
-        </li>
-        {currentUser ? (
+        </li> */}
+        {/* {currentUser ? (
           <li ref={dropdownRef}>
             <div
               role="button"
@@ -162,7 +162,7 @@ const DesktopMenu = () => {
               <a>Log In</a>
             </Link>
           </li>
-        )}
+        )} */}
       </div>
     </>
   );

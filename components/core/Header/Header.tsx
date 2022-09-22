@@ -12,7 +12,7 @@ const Header = () => {
       <header className={styles.header}>
         <ul className={styles.headerWrapper}>
           <Link href="/">
-            <a className={styles.siteTitle}>Dress</a>
+            <a className={styles.siteTitle}>Leslieville Aprons</a>
           </Link>
           <div className={styles.headerRight}>
             <DesktopMenu />
