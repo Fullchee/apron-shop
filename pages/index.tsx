@@ -33,8 +33,9 @@ export async function getStaticProps() {
   const banners = [
     {
       _id: '5e3e88581c9d440000d0f600',
-      name: 'women',
-      imageURL: 'https://res.cloudinary.com/djlbfjouc/image/upload/v1582518195/banner-2_htripb.jpg',
+      name: 'apron-background',
+      imageURL:
+        'https://res.cloudinary.com/dnboci3v7/image/upload/v1663853326/leslieville-aprons/alpha-opacity-aprons_t0obla.png',
     },
   ];
   const categories = [
