@@ -5,7 +5,6 @@ import { Meta, MobileBottomMenu } from '@/components/core';
 import { ProductOverviewSection } from '@/components/home';
 import { Banners, Container, Heading } from '@/components/ui';
 import { useScrollRestoration } from '@/hooks';
-import { BannerService, CategoryService, ProductService } from '@/services';
 
 const Home = ({
   banners,
@@ -31,12 +30,9 @@ const Home = ({
 export default Home;
 
 export async function getStaticProps() {
-  const PAGE = 1;
-  const LIMIT = 12;
-
-  const banners = await BannerService.getBanners();
-  const categories = await CategoryService.getCategories();
-  const products = await ProductService.getProducts({ page: PAGE, limit: LIMIT });
+  const banners = [];
+  const categories = [];
+  const products = [];
 
   return {
     props: {
